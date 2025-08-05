@@ -1,59 +1,90 @@
-# 🌍 Life Expectancy & Health Indicators
-
-**Exploring global health data using BigQuery, clustering, and PCA to uncover patterns in life expectancy.**
-
----
-
-## 📌 Project Overview
-
-This project analyzes life expectancy and public health indicators across countries and years. Using Python, BigQuery, and machine learning techniques like PCA and KMeans clustering, it aims to uncover key trends and regional patterns in global health outcomes.
-
-The project was designed as a portfolio piece for data engineering internships, with a focus on both analysis and end-to-end data pipeline skills.
-
----
-
-## 🧰 Tools & Technologies
-
-- Google BigQuery (SQL queries + dataset hosting)
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- Scikit-learn (PCA, KMeans)
-- Jupyter Notebook
-- GitHub (project versioning)
-- Google Cloud Platform
-
----
-
-## 📊 Key Highlights
-
-- Cleaned and transformed a global health dataset using SQL and Python
-- Ran regression analysis to understand relationship between GDP and health indicators
-- Built a PCA-based clustering model to segment countries by health traits
-- Used correlation matrix and visualizations to draw out insights
-- Exported clustered data back to BigQuery to demonstrate end-to-end pipeline skills
-
----
-
-## 🔍 Insights
-
-- Countries with higher **income composition** and **schooling years** tend to have higher life expectancy.
-- Some low-GDP countries cluster together based on shared health challenges such as higher HIV/AIDS rates and lower BMI.
-- Clustering revealed 3 major groups of countries based on BMI, mortality, HIV/AIDS, schooling, and income composition.
-
----
-
-## 🚀 How to Explore
-
-You can view the full Jupyter notebook in this repo.  
-To explore the data or rerun the analysis:
-
-1. Clone the repo  
-2. Open the `.ipynb` file in Jupyter  
-3. Replace credentials to connect to your own BigQuery project if needed
-
----
-
-## 👤 Author
-
-Ganbold Bold — *Data Engineering & Analytics student*  
-This project was built as part of a portfolio to apply for data engineering roles, including at League (GCP-based health platform).
-
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4f13b029-0b19-4cc4-b868-178fe4e8e299",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 🌍 Life Expectancy & Health Indicators\n",
+    "\n",
+    "**Exploring global health data using BigQuery, clustering, and PCA to uncover patterns in life expectancy.**\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 📌 Project Overview\n",
+    "\n",
+    "This project analyzes life expectancy and public health indicators across countries and years. Using Python, BigQuery, and machine learning techniques like PCA and KMeans clustering, it aims to uncover key trends and regional patterns in global health outcomes.\n",
+    "\n",
+    "The project was designed as a portfolio piece for data engineering internships, with a focus on both analysis and end-to-end data pipeline skills.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 🧰 Tools & Technologies\n",
+    "\n",
+    "- Google BigQuery (SQL queries + dataset hosting)\n",
+    "- Python (Pandas, NumPy, Matplotlib, Seaborn)\n",
+    "- Scikit-learn (PCA, KMeans)\n",
+    "- Jupyter Notebook\n",
+    "- GitHub (project versioning)\n",
+    "- Google Cloud Platform\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 📊 Key Highlights\n",
+    "\n",
+    "- Cleaned and transformed a global health dataset using SQL and Python\n",
+    "- Ran regression analysis to understand relationship between GDP and health indicators\n",
+    "- Built a PCA-based clustering model to segment countries by health traits\n",
+    "- Used correlation matrix and visualizations to draw out insights\n",
+    "- Exported clustered data back to BigQuery to demonstrate end-to-end pipeline skills\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 🔍 Insights\n",
+    "\n",
+    "- Countries with higher **income composition** and **schooling years** tend to have higher life expectancy.\n",
+    "- Some low-GDP countries cluster together based on shared health challenges such as higher HIV/AIDS rates and lower BMI.\n",
+    "- Clustering revealed 3 major groups of countries based on BMI, mortality, HIV/AIDS, schooling, and income composition.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 🚀 How to Explore\n",
+    "\n",
+    "You can view the full Jupyter notebook in this repo.  \n",
+    "To explore the data or rerun the analysis:\n",
+    "\n",
+    "1. Clone the repo  \n",
+    "2. Open the `.ipynb` file in Jupyter  \n",
+    "3. Replace credentials to connect to your own BigQuery project if needed\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 👤 Author\n",
+    "\n",
+    "Ganbold Bold — *Data Engineering & Analytics student*  \n",
+    "This project was built as part of a portfolio to apply for data engineering roles, including at League (GCP-based health platform)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c8a22eff-622e-4148-954b-25c22b6d4965",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "",
+   "name": ""
+  },
+  "language_info": {
+   "name": ""
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
